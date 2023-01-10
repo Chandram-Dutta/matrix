@@ -1,6 +1,6 @@
 [project]
 name = "matrix_chandramdutta"
-version = "1.0.0"
+version = "1.1.0"
 authors = [
   { name="Chandram Dutta", email="chandramdutta2004@gmail.com" },
 ]

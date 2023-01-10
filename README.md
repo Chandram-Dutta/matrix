@@ -6,7 +6,7 @@
 
 ### Getting a Matrix from User Input
 
-`def get_matrix_input(rows: int, columns: int) -> list:`
+`get_matrix_input(rows: int, columns: int) -> list:`
 
 This method takes in the number of rows and columns and returns a matrix of the given size. It also prompts the user for output
 
@@ -44,6 +44,12 @@ This method takes in two matrices and returns the product of the two matrices.
 
 > **Warning**
 > The matrices must satisfy the matrix multiplication rule or else unexpected results may occur.
+
+---
+
+`print_matirx(matrix: list):`
+
+This method allows you to easily print the matrix
 
 ---
 

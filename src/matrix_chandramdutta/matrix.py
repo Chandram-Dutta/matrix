@@ -47,3 +47,10 @@ def multiply_two_matrix(matrix_one: list, matrix_two: list) -> list:
                 result[row][column] += matrix_one[row][k] * \
                     matrix_two[k][column]
     return result
+
+
+def print_matirx(matrix: list):
+    for row in range(len(matrix)):
+        for column in range(len(matrix[0])):
+            print(matrix[row][column], end=" ")
+        print()
