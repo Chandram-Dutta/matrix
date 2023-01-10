@@ -1,4 +1,4 @@
-# MATRIX [[Github]]("https://github.com/Chandram-Dutta/matrix")
+# MATRIX [[Github]]("https://github.com/Chandram-Dutta/matrix") || [[PyPi]]("https://pypi.org/project/matrix-chandramdutta/1.0.0/")
 
 ## The Python Library for managing your matrix (◕‿↼)
 
