@@ -1,12 +1,30 @@
-# MATRIX [[Github]]("https://github.com/Chandram-Dutta/matrix") || [[PyPi]]("https://pypi.org/project/matrix-chandramdutta/1.0.0/")
+# MATRIX [Github]("https://github.com/Chandram-Dutta/matrix") || [PyPi]("https://pypi.org/project/matrix-chandramdutta/")
 
 ## The Python Library for managing your matrix (◕‿↼)
+
+---
+
+# Use the package in your project
+
+### Install the package
+
+```
+pip install matrix_chandramdutta
+```
+
+### Using the package
+
+```
+import matrix_chandramdutta.matrix as matrix
+
+matrix = get_matrix_input(3,5)
+```
 
 # Methods
 
 ### Getting a Matrix from User Input
 
-`get_matrix_input(rows: int, columns: int) -> list:`
+`get_matrix_input(rows: int, columns: int) -> list`
 
 This method takes in the number of rows and columns and returns a matrix of the given size. It also prompts the user for output
 
@@ -20,6 +38,8 @@ This method takes in the number of rows and columns and returns a matrix of the 
 
 ---
 
+### Adding two matrix
+
 `add_two_matrix(matrix_one: list, matrix_two: list) -> list`
 
 This method takes in two matrices and returns the sum of the two matrices.
@@ -28,6 +48,8 @@ This method takes in two matrices and returns the sum of the two matrices.
 > The matrices must be of the same size or else unexpected results may occur.
 
 ---
+
+### Subtracting two matrix
 
 `subtract_two_matrix(matrix_one: list, matrix_two: list) -> list`
 
@@ -38,6 +60,8 @@ This method takes in two matrices and returns the difference of the two matrices
 
 ---
 
+### Multiply two matrix
+
 `multiply_two_matrix(matrix_one: list, matrix_two: list) -> list`
 
 This method takes in two matrices and returns the product of the two matrices.
@@ -47,7 +71,9 @@ This method takes in two matrices and returns the product of the two matrices.
 
 ---
 
-`print_matirx(matrix: list):`
+### Print a matrix
+
+`print_matirx(matrix: list)`
 
 This method allows you to easily print the matrix
 
